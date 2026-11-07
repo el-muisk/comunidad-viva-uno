@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="style.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Animales — Comunidad Viva</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+ <link rel="icon" href="logo_cv.png">
+ </head> 
+<body class="theme-animales">
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<img alt="" src="imagenes-animales/bordes.png" aria-hidden="true" class="borde-an borde-izq-an">
+<img alt="" src="imagenes-animales/bordes.png" aria-hidden="true" class="borde-an borde-der-an">
+  <script src="main.js"></script>
+<header>
+  <div class="nav">
+    <div class="brand">
+    <a href="index.html"><img src="logo_cmunidad-viva.png" alt="Comunidad Viva" class="logo-img"></a>
+    </div>
+    <nav class="nav-links" aria-label="Principal">
+      <a href="animales.html" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6.5" cy="10" r="2"/><circle cx="10" cy="5.5" r="2"/><circle cx="14" cy="5.5" r="2"/><circle cx="17.5" cy="10" r="2"/><path d="M12 11.5c-3 0-5.5 2.8-5.5 5 0 1.6 1.3 2.5 2.8 2.5 1 0 1.8-.4 2.7-.4s1.7.4 2.7.4c1.5 0 2.8-.9 2.8-2.5 0-2.2-2.5-5-5.5-5z"/></svg><span>Animales</span></a>
+      <a href="plantas.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19c0-8 5-13 14-14 0 9-5 14-13 14"/><path d="M5 19c3-4 6-6 9-8"/></svg><span>Plantas</span></a>
+      <a href="educacion.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3"/><path d="M7.5 14h9"/></svg><span>Otros</span></a>
+      <a href="index.html#sobre-mi"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 9h18"/><path d="M7 6.5h.01M10 6.5h.01"/></svg><span class="nav-largo">Experiencia de usuario</span><span class="nav-corto">Experiencia</span></a>
+    </nav>
+    <a href="index.html#donaciones" class="nav-cta">Donar</a>
+  </div>
+</header>
+<main id="contenido">
+<nav class="breadcrumb" aria-label="Migas de pan"><ol><li><a href="index.html">Inicio</a></li><li aria-current="page">Animales</li></ol></nav>
+<section class="hero-page">
+  <h1>Animales</h1>
+  <p>3 proyectos del Parque de la Conservación.</p>
+</section>
+<div class="blog-intro">
+  <p>Estos proyectos fueron creados a partir de la idea del profesor de crear y basar nuestras preguntas en uno de nuestros viajes escolares, en el cual iríamos al Parque de la Conservación, y lo que podría suceder si los animales estuvieran en ciertas condiciones.</p>
+  <div class="dato-curioso">
+    <strong>Dato curioso</strong>
+    <p>El Parque de la Conservación de Medellín (antiguo Zoológico Santa Fe) dejó de ser un zoológico tradicional en 2020 para convertirse en un santuario y museo vivo enfocado en rescatar animales del tráfico ilegal y proteger la biodiversidad.</p>
+  </div>
+</div>
+<section class="proyectos carrusel">
+  <div class="wrap">
+    <div class="carrusel-barra">
+      <div class="carrusel-ctrl">
+        <button type="button" class="carrusel-btn" id="carrusel-prev" aria-label="Ver proyectos anteriores"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <button type="button" class="carrusel-btn" id="carrusel-next" aria-label="Ver más proyectos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>
+    <div class="grid" tabindex="0" role="region" aria-label="Proyectos, desliza para ver más">
+
+      <article class="card">
+        <div class="card-media" aria-hidden="true"><span class="icon-tile emoji">🐾</span></div>
+        <div class="card-body">
+          <span class="tag bg-coral tag-autor" title="Autores: Isaac, Emmanuel, Valeria y Jerónimo">Autores: Isaac y 3 más</span>
+          <h3>Mitos y creencias sobre la fauna del parque</h3>
+          <p>¿Cómo influyen los mitos y las creencias de las personas sobre las especies que llegan al Parque de la Conservación?</p>
+          <a href="animales-mitos.html" class="card-link">Ver proyecto</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-media" aria-hidden="true"><span class="icon-tile emoji">🐗</span></div>
+        <div class="card-body">
+          <span class="tag bg-teal tag-autor" title="Autores: Matías, Luisa María, Miguel Ángel y Alejandro">Autores: Matías y 3 más</span>
+          <h3>El clima cambia, y los animales también</h3>
+          <p>¿De qué manera afecta el cambio climático a animales del parque como la tortuga, el mono araña y la guacamaya?</p>
+          <a href="animales-clima.html" class="card-link">Ver proyecto</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-media" aria-hidden="true"><span class="icon-tile emoji">🐆</span></div>
+        <div class="card-body">
+          <span class="tag bg-teal tag-autor" title="Autores: María Fernanda, Valery Sofía, Sara, Mariana y Jerónimo">Autores: María Fernanda y 4 más</span>
+          <h3>El jaguar y sus visitantes: ¿coexistencia posible?</h3>
+          <p>¿Cómo afecta la cercanía de los visitantes a las actividades, alimentación e interacción del jaguar con su entorno?</p>
+          <a href="animales-jaguar.html" class="card-link">Ver proyecto</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="logo" style="display:block">comunidad<span>viva</span></div>
+        <p>Un espacio para contar y apoyar los proyectos de las personas que conoces.</p>
+      </div>
+      <div class="foot-links">
+        <div>
+          <h4>Proyectos</h4>
+          <a href="animales.html">Animales</a>
+          <a href="plantas.html">Plantas</a>
+          <a href="educacion.html">Otros proyectos</a>
+        </div>
+        <div>
+          <h4>Sitio</h4>
+          <a href="index.html#sobre-mi">Experiencia de usuario</a>
+          <a href="index.html#resultados">Resultados</a>
+          <a href="index.html#donaciones">Donar</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Comunidad Viva</span>
+      <span>Hecho con cariño para la comunidad</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
