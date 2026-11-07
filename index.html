@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comunidad Viva — Proyectos y Donaciones</title>
+  <link rel="icon" href="logo_cv.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+<body class="theme-home">
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<header>
+  <div class="nav">
+    <div class="brand">
+      <a href="index.html">
+        <img src="logo_cmunidad-viva.png" alt="Comunidad Viva" class="logo-img">
+        <div class="logo">comunidad<span>viva</span></div>
+      </a>
+    </div>
+    <nav class="nav-links" aria-label="Principal">
+      <a href="animales.html"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6.5" cy="10" r="2"/><circle cx="10" cy="5.5" r="2"/><circle cx="14" cy="5.5" r="2"/><circle cx="17.5" cy="10" r="2"/><path d="M12 11.5c-3 0-5.5 2.8-5.5 5 0 1.6 1.3 2.5 2.8 2.5 1 0 1.8-.4 2.7-.4s1.7.4 2.7.4c1.5 0 2.8-.9 2.8-2.5 0-2.2-2.5-5-5.5-5z"/></svg><span>Animales</span></a>
+      <a href="plantas.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19c0-8 5-13 14-14 0 9-5 14-13 14"/><path d="M5 19c3-4 6-6 9-8"/></svg><span>Plantas</span></a>
+      <a href="educacion.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3"/><path d="M7.5 14h9"/></svg><span>Otros</span></a>
+      <a href="index.html#sobre-mi"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 9h18"/><path d="M7 6.5h.01M10 6.5h.01"/></svg><span class="nav-largo">Experiencia de usuario</span><span class="nav-corto">Experiencia</span></a>
+    </nav>
+    <a href="index.html#donaciones" class="nav-cta">Donar</a>
+  </div>
+</header>
+
+<main id="contenido">
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Historias que sí pasan aquí</span>
+    <h1>Los proyectos de tus amigos, <em>hechos comunidad.</em></h1>
+    <p>Un espacio para contar lo que están construyendo las personas que conoces.</p>
+    <div class="hero-actions">
+      <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+      <a href="#donaciones" class="btn btn-donar">Cómo donar</a>
+    </div>
+  </div>
+</section>
+
+<section class="proyectos carrusel" id="proyectos" aria-labelledby="t-proyectos">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="section-tag">Tipos de proyectos</span>
+        <h2 id="t-proyectos">Lo que se está creando ahora</h2>
+      </div>
+      <div class="carrusel-ctrl">
+        <button type="button" class="carrusel-btn" id="carrusel-prev" aria-label="Ver proyectos anteriores"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <button type="button" class="carrusel-btn" id="carrusel-next" aria-label="Ver más proyectos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>
+    <div class="grid" tabindex="0" role="region" aria-label="Tipos de proyectos, desliza para ver más">
+      <article class="card theme-animales">
+        <div class="card-media" aria-hidden="true"><span class="icon-tile emoji">🐮</span></div>
+        <div class="card-body">
+          <span class="tag">3 proyectos</span>
+          <h3>Animales</h3>
+          <p>Proyectos del Parque de la Conservación sobre:</p>
+          <ul><li>Mitos y creencias sobre la fauna.</li><li>Cambio climático.</li><li>El jaguar y sus visitantes.</li></ul>
+          <a href="animales.html" class="card-link">Ver proyectos de animales</a>
+        </div>
+      </article>
+
+      <article class="card theme-plantas">
+        <div class="card-media" aria-hidden="true"><span class="icon-tile emoji">🌱</span></div>
+        <div class="card-body">
+          <span class="tag">1 proyecto</span>
+          <h3>Plantas</h3>
+          <p>Un proyecto sobre hongos y líquenes, y cómo trabajan en equipo con otras especies en el bosque.</p>
+          
+          <a href="plantas.html" class="card-link">Ver proyectos de plantas</a>
+        </div>
+      </article>
+
+      <article class="card theme-otros">
+        <div class="card-media" aria-hidden="true"><span class="icon-tile emoji">➕</span></div>
+        <div class="card-body">
+          <span class="tag">2 proyectos</span>
+          <h3>Otros proyectos</h3>
+          <p>Proyectos de salud y ciencia:</p>
+          <ul><li>Infiltraciones o pastillas para el dolor articular.</li><li>Cohetes de agua.</li></ul>
+          <a href="educacion.html" class="card-link">Ver otros proyectos</a>
+        </div>
+      </article>
+      <article class="card theme-web">
+        <div class="card-media" aria-hidden="true"><span class="icon-tile emoji">🛜</span></div>
+        <div class="card-body">
+          <span class="tag">1 proyecto</span>
+          <h3>Experiencia de usuario</h3>
+          <p>Tienes 5 segundos antes de que alguien cierre la pestaña. Por eso comparé dos versiones del sitio, con y sin diseño. Aquí cuento:</p>
+          <ul>
+            <li>Por qué lo hice.</li>
+            <li>Qué comparo y cómo lo mido.</li>
+            <li>Lo que aprendí.</li>
+          </ul>
+          <a href="#sobre-mi" class="card-link">Conocer el estudio</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sobre" id="sobre-mi">
+  <div class="wrap">
+    <div class="sobre-head">
+      <span class="section-tag">Proyecto W.E.B.</span>
+      <h2>Experiencia de usuario</h2>
+      <p>Cinco paradas rápidas: por qué hice esto, qué comparo y qué aprendí.</p>
+    </div>
+  </div>
+
+  <div class="stack-outer" id="stackOuter">
+    <div class="stack-pin">
+      <div class="stack-cards" id="stackCards">
+
+        <article class="stack-card" style="--accent:var(--pink)">
+          <svg aria-hidden="true" class="stack-card-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="24" cy="27" r="13"/>
+            <line x1="24" y1="27" x2="24" y2="19"/>
+            <line x1="24" y1="27" x2="29" y2="30"/>
+            <line x1="20" y1="6" x2="28" y2="6"/>
+            <line x1="24" y1="6" x2="24" y2="10"/>
+            <line x1="34" y1="12" x2="37" y2="9"/>
+            <line x1="38" y1="16" x2="41" y2="14"/>
+          </svg>
+          <span class="stack-card-label">El dato</span>
+          <h3>5 segundos</h3>
+          <p>Es lo que tienes antes de que alguien cierre la pestaña. Por eso comparé dos versiones del mismo sitio.</p>
+        </article>
+
+        <article class="stack-card" style="--accent:var(--blue)">
+          <svg aria-hidden="true" class="stack-card-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M10 14a6 6 0 0 1 6-6h16a6 6 0 0 1 6 6v10a6 6 0 0 1-6 6H20l-7 6v-6h-1a6 6 0 0 1-6-6z"/>
+            <line x1="18" y1="16" x2="30" y2="16"/>
+            <line x1="18" y1="22" x2="26" y2="22"/>
+          </svg>
+          <span class="stack-card-label">Origen</span>
+          <h3>¿Cómo surgió esta idea?</h3>
+          <p>Surgió charlando con mi papá, que hace UX design. Una tarde, mientras pasábamos el rato en nuestro estudio, recordé que me gusta programar y empecé a diseñar el proyecto. Él se acercó, le mostré lo que hacía, y desde ese día lo construimos juntos.</p>
+        </article>
+
+        <article class="stack-card" style="--accent:var(--leaf)">
+          <svg aria-hidden="true" class="stack-card-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="6" y="10" width="36" height="28" rx="4"/>
+            <line x1="24" y1="10" x2="24" y2="38" stroke-dasharray="3 3"/>
+            <rect x="9" y="13" width="12" height="22" rx="2" fill="currentColor" stroke="none" opacity="0.18"/>
+          </svg>
+          <span class="stack-card-label">Qué comparo</span>
+          <h3>Versión A contra versión B</h3>
+          <p>El mismo sitio, dos tratamientos distintos:</p>
+          <ul>
+            <li>Versión A: con diseño y orden visual.</li>
+            <li>Versión B: el mismo contenido, sin estilos ni jerarquía (sin títulos, secciones ni diseño).</li>
+          </ul>
+        </article>
+
+        <article class="stack-card" style="--accent:var(--pink)">
+          <svg aria-hidden="true" class="stack-card-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="24" cy="27" r="13"/>
+            <line x1="24" y1="27" x2="24" y2="19"/>
+            <line x1="24" y1="27" x2="29" y2="30"/>
+            <line x1="20" y1="6" x2="28" y2="6"/>
+            <line x1="24" y1="6" x2="24" y2="10"/>
+          </svg>
+          <span class="stack-card-label">Cómo lo mido</span>
+          <h3>Pruebas de usabilidad</h3>
+          <p>En cada versión, un usuario intenta completar la misma tarea. Mido:</p>
+          <ul>
+            <li>Cuánto tiempo le toma terminarla.</li>
+            <li>Cuántos errores comete en el camino.</li>
+          </ul>
+        </article>
+
+        <article class="stack-card" style="--accent:var(--blue)">
+          <svg aria-hidden="true" class="stack-card-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 12c4-2 10-2 14 1v21c-4-3-10-3-14-1z"/>
+            <path d="M40 12c-4-2-10-2-14 1v21c4-3 10-3 14-1z"/>
+          </svg>
+          <span class="stack-card-label">Aprendizajes</span>
+          <h3>Lo que me deja el proyecto</h3>
+          <ul>
+            <li>Cuánto tiempo tienes para captar la atención de alguien.</li>
+            <li>Cómo hacer pruebas de usabilidad sin gastar casi nada.</li>
+            <li>Lógica de programación en HTML.</li>
+            <li>Jerarquías y optimización en sitios web.</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="resultados" id="resultados" aria-labelledby="t-resultados">
+  <div class="wrap">
+    <div class="res-head">
+      <span class="section-tag">Resultados de la prueba</span>
+      <h2 id="t-resultados">Lo que medimos en la prueba</h2>
+      <p>Seis personas probaron la versión A, con diseño, y siete la versión B, sin diseño. Cada una hizo tres tareas: encontrar un proyecto y leer su información. Son los resultados de la versión original, antes del rediseño.</p>
+    </div>
+
+    <div class="res-resumen">
+      <div class="widget w-web">
+        <p class="big">5,1 <span>frente a</span> 4,7</p>
+        <h3>Facilidad media</h3>
+        <p>Versión A frente a versión B, en una escala de 1 a 7 donde 7 es muy fácil.</p>
+      </div>
+      <div class="widget">
+        <p class="big-num">10 min 17 s</p>
+        <h3>Tiempo total, el más lento</h3>
+        <p>En la versión B el participante más lento tardó hasta 15 min 35 s.</p>
+      </div>
+      <div class="widget">
+        <p class="big-num">6 y 7</p>
+        <h3>Participantes</h3>
+        <p>Personas que probaron la versión A y la versión B.</p>
+      </div>
+      <div class="widget">
+        <p class="big-num">3</p>
+        <h3>Tareas por persona</h3>
+        <p>Cohetes de agua, clima y hongos y líquenes.</p>
+      </div>
+    </div>
+
+    <div class="res-tareas">
+      <article class="res-card">
+        <span class="res-tarea">Tarea 1</span>
+        <h3>Cohetes de agua</h3>
+        <h4>Facilidad percibida (de 1 a 7, más es más fácil)</h4>
+        <div class="barras" role="group" aria-label="Facilidad media">
+          <div class="barra"><span class="barra-nombre">Versión A</span><span class="barra-pista" aria-hidden="true"><span class="barra-a" style="width:67.1%"></span></span><strong>4,7</strong></div>
+          <div class="barra"><span class="barra-nombre">Versión B</span><span class="barra-pista" aria-hidden="true"><span class="barra-b" style="width:52.9%"></span></span><strong>3,7</strong></div>
+        </div>
+        <h4>Participante más lento</h4>
+        <div class="barras" role="group" aria-label="Participante más lento">
+          <div class="barra"><span class="barra-nombre">Versión A</span><span class="barra-pista" aria-hidden="true"><span class="barra-a" style="width:72.6%"></span></span><strong>hasta 9 min 19 s</strong></div>
+          <div class="barra"><span class="barra-nombre">Versión B</span><span class="barra-pista" aria-hidden="true"><span class="barra-b" style="width:100.0%"></span></span><strong>hasta 12 min 50 s</strong></div>
+        </div>
+      </article>
+      <article class="res-card">
+        <span class="res-tarea">Tarea 2</span>
+        <h3>El clima cambia, y los animales también</h3>
+        <h4>Facilidad percibida (de 1 a 7, más es más fácil)</h4>
+        <div class="barras" role="group" aria-label="Facilidad media">
+          <div class="barra"><span class="barra-nombre">Versión A</span><span class="barra-pista" aria-hidden="true"><span class="barra-a" style="width:75.7%"></span></span><strong>5,3</strong></div>
+          <div class="barra"><span class="barra-nombre">Versión B</span><span class="barra-pista" aria-hidden="true"><span class="barra-b" style="width:71.4%"></span></span><strong>5,0</strong></div>
+        </div>
+        <h4>Participante más lento</h4>
+        <div class="barras" role="group" aria-label="Participante más lento">
+          <div class="barra"><span class="barra-nombre">Versión A</span><span class="barra-pista" aria-hidden="true"><span class="barra-a" style="width:43.7%"></span></span><strong>hasta 52 s</strong></div>
+          <div class="barra"><span class="barra-nombre">Versión B</span><span class="barra-pista" aria-hidden="true"><span class="barra-b" style="width:100.0%"></span></span><strong>hasta 1 min 59 s</strong></div>
+        </div>
+      </article>
+      <article class="res-card">
+        <span class="res-tarea">Tarea 3</span>
+        <h3>Hongos y líquenes</h3>
+        <h4>Facilidad percibida (de 1 a 7, más es más fácil)</h4>
+        <div class="barras" role="group" aria-label="Facilidad media">
+          <div class="barra"><span class="barra-nombre">Versión A</span><span class="barra-pista" aria-hidden="true"><span class="barra-a" style="width:74.3%"></span></span><strong>5,2</strong></div>
+          <div class="barra"><span class="barra-nombre">Versión B</span><span class="barra-pista" aria-hidden="true"><span class="barra-b" style="width:77.1%"></span></span><strong>5,4</strong></div>
+        </div>
+        <h4>Participante más lento</h4>
+        <div class="barras" role="group" aria-label="Participante más lento">
+          <div class="barra"><span class="barra-nombre">Versión A</span><span class="barra-pista" aria-hidden="true"><span class="barra-a" style="width:100.0%"></span></span><strong>hasta 42 s</strong></div>
+          <div class="barra"><span class="barra-nombre">Versión B</span><span class="barra-pista" aria-hidden="true"><span class="barra-b" style="width:57.1%"></span></span><strong>hasta 24 s</strong></div>
+        </div>
+      </article>
+    </div>
+
+    <article class="res-card res-total">
+      <span class="res-tarea">Todo el estudio</span>
+      <h3>Tiempo total de las tres tareas</h3>
+      <div class="res-total-cuerpo">
+        <div>
+          <h4>Participante más lento</h4>
+          <div class="barras" role="group" aria-label="Participante más lento en todo el estudio">
+            <div class="barra"><span class="barra-nombre">Versión A</span><span class="barra-pista" aria-hidden="true"><span class="barra-a" style="width:66.0%"></span></span><strong>hasta 10 min 17 s</strong></div>
+            <div class="barra"><span class="barra-nombre">Versión B</span><span class="barra-pista" aria-hidden="true"><span class="barra-b" style="width:100%"></span></span><strong>hasta 15 min 35 s</strong></div>
+          </div>
+        </div>
+        <ul class="res-lista">
+          <li><strong>Versión A:</strong> 4 de 6 personas terminaron en menos de 2 min 4 s.</li>
+          <li><strong>Versión B:</strong> 3 de 7 personas terminaron en menos de 3 min 7 s.</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="donaciones" id="donaciones">
+  <div class="wrap don-grid">
+    <div class="don-copy">
+      <span class="section-tag">Donaciones</span>
+      <h2>Apoya mi proyecto</h2>
+      <p>Cada peso que donas me ayuda a seguir aprendiendo programación.</p>
+      <div class="impacto">
+        <div><strong>100%</strong><span>va hacia el proyecto</span></div>
+        <div><strong>0</strong><span>comisiones</span></div>
+      </div>
+    </div>
+
+    <div class="don-card" id="tarjeta-donacion" aria-live="polite">
+      <h3 tabindex="-1">Elige un monto</h3>
+      <p class="don-sub">O escribe otro monto abajo.</p>
+      <div class="don-tiers" role="group" aria-label="Montos sugeridos">
+        <button type="button" class="tier-btn active" aria-pressed="true">$20.000</button>
+        <button type="button" class="tier-btn" aria-pressed="false">$50.000</button>
+        <button type="button" class="tier-btn" aria-pressed="false">$100.000</button>
+      </div>
+      <input type="text" id="input-monto" inputmode="numeric" autocomplete="off" placeholder="Otro monto (COP)" aria-label="Otro monto en pesos colombianos" aria-describedby="error-monto">
+      <p class="don-error" id="error-monto" role="alert" hidden></p>
+      <button type="button" id="btn-donar" class="btn btn-primary">Continuar con la donación</button>
+      <p class="don-note">Las donaciones se reciben por transferencia Nequi.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="logo" style="display:block">comunidad<span>viva</span></div>
+        <p>Un espacio para contar y apoyar los proyectos de las personas que conoces.</p>
+      </div>
+      <div class="foot-links">
+        <div>
+          <h4>Proyectos</h4>
+          <a href="animales.html">Animales</a>
+          <a href="plantas.html">Plantas</a>
+          <a href="educacion.html">Otros proyectos</a>
+        </div>
+        <div>
+          <h4>Sitio</h4>
+          <a href="index.html#sobre-mi">Experiencia de usuario</a>
+          <a href="index.html#resultados">Resultados</a>
+          <a href="index.html#donaciones">Donar</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Comunidad Viva</span>
+      <span>Hecho con cariño para la comunidad</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

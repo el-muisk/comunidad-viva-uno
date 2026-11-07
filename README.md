@@ -1,2 +1,3 @@
-# comunidad-viva-uno
-Comunidad Viva: sitio web de proyectos y donaciones
+# Comunidad Viva
+
+Sitio web de proyectos y donaciones, publicado con GitHub Pages.
